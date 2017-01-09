@@ -2,3 +2,22 @@
   <h1>Welcome to Web Developing Course</h1>
   <h4>Web Developing courses through Ruby on Rails.</h4>
 </div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="well">
+      <h2 class="text-center">Basic Membeship</h2>
+      <h4>Sign up for free and get basic access to the course.</h4></br>
+      </br>
+      <%= link_to "Sign up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="well">
+      <h2 class="text-center">Pro Membeship</h2>
+      <h4>Sign up for the pro membership for $10/month and get access to the detailed courses and the contact informations of more developers!</h4>
+       <%= link_to "Sign up with Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+    </div>
+    
+  </div>
+  
+</div>
